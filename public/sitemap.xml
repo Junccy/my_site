@@ -2,8 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/my_site/</loc><lastmod>2025-11-26T12:19:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/my_site/posts/</loc><lastmod>2025-11-26T12:19:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/my_site/2025/11/testing_post/</loc><lastmod>2025-11-26T12:19:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/my_site/</loc><lastmod>2025-11-30T15:50:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/my_site/posts/</loc><lastmod>2025-11-30T15:50:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/my_site/2025/11/first_post/</loc><lastmod>2025-11-30T15:50:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/my_site/2025/11/testing_post/</loc><lastmod>2025-11-30T15:38:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/my_site/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://localhost:1313/my_site/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
