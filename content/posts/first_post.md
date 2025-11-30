@@ -3,7 +3,10 @@ date = '2025-11-30T15:50:43+08:00'
 draft = false
 title = '你好！'
 comment = true
+featuredImage = "/my_site/1/L1011022G.jpg"
 +++
+
+
 
 ### 个人网站
 &emsp;&emsp;以这样一种方式与你见面，语言已无法描绘我的兴奋！
