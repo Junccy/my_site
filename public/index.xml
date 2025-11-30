@@ -1,9 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Junccy</title>
-        <link>https://example.org/</link>
-        <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 26 Nov 2025 11:42:35 &#43;0800</lastBuildDate>
-            <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <link>http://localhost:1313/my_site/</link>
+        <description>生活  摄影  随想</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>3208718667@qq.com (江长鑫)</managingEditor>
+            <webMaster>3208718667@qq.com (江长鑫)</webMaster><copyright>© 2025 江长鑫 保留所有权利</copyright><lastBuildDate>Wed, 26 Nov 2025 11:42:35 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:1313/my_site/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Testing_post</title>
+    <link>http://localhost:1313/my_site/2025/11/testing_post/</link>
+    <pubDate>Wed, 26 Nov 2025 11:42:35 &#43;0800</pubDate>
+    <author>3208718667@qq.com (江长鑫)</author>
+    <guid>http://localhost:1313/my_site/2025/11/testing_post/</guid>
+    <description><![CDATA[<h2 id="第一次尝试">第一次尝试</h2>
+<p>鬼知道能不能成功，现在正在上统计学，我好饿，今天到现在都没有逃课！</p>
+<h2 id="先试一下能不能传github再说吧">先试一下能不能传github再说吧</h2>]]></description>
+</item>
+</channel>
 </rss>

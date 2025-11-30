@@ -2,6 +2,7 @@
 date = '2025-11-26T11:42:35+08:00'
 draft = true
 title = 'Testing_post'
+comment = true
 +++
 ## 第一次尝试
 鬼知道能不能成功，现在正在上统计学，我好饿，今天到现在都没有逃课！

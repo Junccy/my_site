@@ -1,0 +1,36 @@
+/* 首页头像容器大小 */
+.home-profile .home-avatar {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+/* 首页头像图片大小 */
+.home-profile .home-avatar img {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* 让首页 profile 整体居中 */
+.home-profile {
+  text-align: center !important;
+}
+
+/* 让头像容器本身居中 */
+.home-profile .home-avatar {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* 兜底：只移动 header 左上角所有可能的 logo 图片 */
+.header-title img,
+.header-title .logo img,
+.header-title .logo svg,
+.header-title .header-logo img,
+.header-title .header-logo svg {
+  transform: translateY(4px) !important; /* 往下 2px，1~4 自己调 */
+}
