@@ -3,10 +3,12 @@ languageCode = 'zh-CN'
 languageName = '简体中文'
 title = 'Junccy'
 theme='LoveIt'
+hasCJKLanguage = true
+disablePathToLower = false
 
 copyright = "© 2025 江长鑫 保留所有权利"
 
-enableRobotsTXT = false #等我建完了可以打开
+enableRobotsTXT = true #等我建完了可以打开
 enableGitInfo = true
 enableEmoji = true
 
@@ -146,7 +148,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.search]
     enable = true
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
+    indexURL = "/my_site/index.json"    # 关键：告诉前端索引文件在哪
     # 文章内容最长索引长度
     contentLength = 4000
     # 搜索框的占位提示语
@@ -160,9 +163,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "search_function"
+      appID = "MXNU3QH0SM"
+      searchKey = "8191483e65d77fa2956874c92833244b"
 
 # 主页配置
   [params.home]
@@ -203,7 +206,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     TikTok = "" # LoveIt 新增 | 0.3.0
     Phone = ""
     Email = "3208718667@qq.com"
-    RSS = true # LoveIt 新增 | 0.2.0
+    RSS = false # LoveIt 新增 | 0.2.0
 
 # LoveIt 更改 | 0.2.0 文章页面全局配置
   [params.page]
@@ -322,11 +325,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # LoveIt 新增 | 0.2.0 网站分析配置
   [params.analytics]
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
       # LoveIt 新增 | 0.3.1 是否遵循浏览器的 “Do Not Track” 设置
       respectDoNotTrack = false
+    [params.analytics.goatCounter]
+      code = "junccy"   # 换成你自己的 code
 
 # LoveIt 新增 | 0.2.7 Cookie 许可配置
   [params.cookieconsent]

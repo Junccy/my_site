@@ -1,47 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>All Posts - Junccy</title>
-        <link>http://localhost:1313/my_site/posts/</link>
-        <description>All Posts | Junccy</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>3208718667@qq.com (江长鑫)</managingEditor>
-            <webMaster>3208718667@qq.com (江长鑫)</webMaster><copyright>© 2025 江长鑫 保留所有权利</copyright><lastBuildDate>Sun, 30 Nov 2025 15:50:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/my_site/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>你好！</title>
-    <link>http://localhost:1313/my_site/2025/11/first_post/</link>
-    <pubDate>Sun, 30 Nov 2025 15:50:43 &#43;0800</pubDate>
-    <author>3208718667@qq.com (江长鑫)</author>
-    <guid>http://localhost:1313/my_site/2025/11/first_post/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - Junccy</title><link>https://junccy.github.io/my_site/posts/</link><description>All Posts | Junccy</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>3208718667@qq.com (江长鑫)</managingEditor><webMaster>3208718667@qq.com (江长鑫)</webMaster><copyright>© 2025 江长鑫 保留所有权利</copyright><lastBuildDate>Wed, 03 Dec 2025 15:49:15 +0800</lastBuildDate><atom:link href="https://junccy.github.io/my_site/posts/" rel="self" type="application/rss+xml"/><item><title>露寝者们</title><link>https://junccy.github.io/my_site/2025/12/second/</link><pubDate>Wed, 03 Dec 2025 15:49:15 +0800</pubDate><author>3208718667@qq.com (江长鑫)</author><guid>https://junccy.github.io/my_site/2025/12/second/</guid><description>这是一群看不见的人。这是一群被他人意见先入为主的人。希望通过我的照片，能给你一个不一样的看法</description></item><item><title>你好！</title><link>https://junccy.github.io/my_site/2025/11/first_post/</link><pubDate>Sun, 30 Nov 2025 15:50:43 +0800</pubDate><author>3208718667@qq.com (江长鑫)</author><guid>https://junccy.github.io/my_site/2025/11/first_post/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/my_site/1/L1011022G.jpg" referrerpolicy="no-referrer">
             </div><h3 id="个人网站">个人网站</h3>
 <p>  以这样一种方式与你见面，语言已无法描绘我的兴奋！</p>
-<p>  先简单介绍一下，这是我的个人网站，目前是打算用来让我抒发一些在其他地方无法抒发的情感，以及讲一些其他地方无法讲的故事。</p>
-<h4 id="建立原因">建立原因</h4>
-<p>  部分原因已经在我的网站计划用途中提及，但如果仅仅只有这些原因，我大可以每天写写日记。但，由于我自认为我的一些见解是值得和更多人分享、被更多人讨论的，我不甘心这些金子被埋在地下，等我死了之后，它们才被挖出，甚至可能会永远都不见天日。我不敢自诩为查拉图斯特拉，我没有他那样“超人”的，“永远回归”的智慧哲理分享给世人。我只是想通过互联网，扩大我所遇到的人的基数，增加我遇到能够与之碰撞思想的人的概率，突破我一个人的思想的瓶颈。</p>
-<p>  再者，我当然可以通过现在已有的社交平台发表我的言语。但我始终认为现存的社交平台都太浮躁了，严肃的思考只会被娱乐化。所以我决心我自己去尽我最大所能，塑造一个“慢”的环境，为读者提供一个思索的空间。</p>
-<p>  而且，除去快节奏的社交平台，严格的审核更是难以让我说我想说的。我希望在这里我能够建立的是一个在拥有正确的三观基础上，去追思与反思社会的、人类的、生命的种种事件，这里最不需要的就是极端分子。</p>
-<p>  当然了，说了这么多“不切实际”的原因，肯定有人会认为我吃饱了撑的，说话虚情假意。我不否认我做这个网站有谋名利的想法，毕竟，思想就是不能当饭吃。并且我发自内心的就是羡慕外界的认可，即使我同时也蔑视外界的认可。就像我讨厌金钱将世界万物都变得物质化，但同时我就是稀罕钱。</p>
-<p>  我若开花，蝴蝶自来——可万一现在的蝴蝶嗅觉不灵呢？</p>
-<h3 id="摄影集">摄影集</h3>
-<p>  这个网站的主要内容肯定是我的摄影作品，以及这些作品的背景介绍、背后发生的故事、我的感想等。</p>
-<p>  今年算是我真真正正地半只脚踏入摄影领域，真正的摄影圈子很小，在社交媒体上我的那些非迎合大众口味的作品自然是没有流量，自我怀疑是难免的。</p>
-<p>  希望在这个空间中能有人通过我的作品和我同频共振</p>
-<p>  也希望这个网站能作为一种对我摄影的督促</p>
-<h3 id="现状">现状</h3>
-<ul>
-<li>第一次做这个相对长期的项目，必定是有许多挑战的，希望我能坚持下去</li>
-<li>第一次做网站，虽然是很简单的，对我而言就像是登天，若有问题烦请大家包涵</li>
-<li>大家可以留个言，相当于帮我测试一下评论功能 :)</li>
-</ul>]]></description>
-</item>
-<item>
-    <title>Testing_post</title>
-    <link>http://localhost:1313/my_site/2025/11/testing_post/</link>
-    <pubDate>Wed, 26 Nov 2025 11:42:35 &#43;0800</pubDate>
-    <author>3208718667@qq.com (江长鑫)</author>
-    <guid>http://localhost:1313/my_site/2025/11/testing_post/</guid>
-    <description><![CDATA[<h2 id="第一次尝试">第一次尝试</h2>
-<p>鬼知道能不能成功，现在正在上统计学，我好饿，今天到现在都没有逃课！</p>
-<h2 id="先试一下能不能传github再说吧">先试一下能不能传github再说吧</h2>]]></description>
-</item>
-</channel>
-</rss>
+<p>  先简单介绍一下，这是我的个人网站，目前是打算用来让我抒发一些在其他地方无法抒发的情感，以及讲一些其他地方无法讲的故事。</p>]]></description></item></channel></rss>
