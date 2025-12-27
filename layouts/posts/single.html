@@ -63,9 +63,19 @@
 
                 {{- $comment := .Scratch.Get "comment" | default dict -}}
                 {{- if and .Site.Params.page.comment.enable .Site.Params.page.comment.valine.enable .Site.Params.page.comment.valine.visitor -}}
-                    <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
-                    </span>&nbsp;
+                    {{- /* Prefix visitor key to separate dev and prod counters */ -}}
+                    {{- $prefix := "prod:" -}}
+                    {{- if hugo.IsServer -}}
+                        {{- $prefix = "dev:" -}}
+                    {{- end -}}
+
+                    <span id="{{ $prefix }}{{ .RelPermalink }}"
+                          class="leancloud_visitors"
+                          data-flag-title="{{ .Title }}">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;
+                        <span class="leancloud-visitors-count"></span>&nbsp;
+                        {{ T "views" }}
+                    </span>&nbsp;&nbsp;
                 {{- end -}}
             </div>
         </div>
