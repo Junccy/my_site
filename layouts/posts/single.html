@@ -56,7 +56,7 @@
 
                 {{/* 自定义中文阅读时间，按每分钟 300 字 */}}
                 {{- $words := .WordCount -}}
-                {{- $speed := 250 -}}   {{/* 自己可改成 250 / 350 等 */}}
+                {{- $speed := 230 -}}   {{/* 自己可改成 250 / 350 等 */}}
                 {{- $readingTime := div (add $words $speed) $speed -}}
 
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;{{ T "readingTime" $readingTime }}&nbsp;
@@ -67,6 +67,8 @@
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
                 {{- end -}}
+            </div>
+        </div>
 
         {{- /* Featured image */ -}}
         {{- $image := $params.featuredimage -}}
