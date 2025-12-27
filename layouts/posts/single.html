@@ -61,10 +61,8 @@
 
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;{{ T "readingTime" $readingTime }}&nbsp;
 
-                <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;阅读次数：<span id="page-views">-</span>&nbsp;
-
                 {{- $comment := .Scratch.Get "comment" | default dict -}}
-                {{- if $comment.enable | and $comment.valine.enable | and $comment.valine.visitor -}}
+                {{- if and .Site.Params.page.comment.enable .Site.Params.page.comment.valine.enable .Site.Params.page.comment.valine.visitor -}}
                     <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;

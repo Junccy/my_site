@@ -4,8 +4,8 @@ draft = false
 title = '露寝者们'
 subtitle = '——武昌火车站'
 comment = true
-category = ['纪实']
-tags = ['纪实','1:1']
+categories = ['纪实']
+tags = ['纪实','1x1']
 featuredImagePreview = '/my_site/2/L1071454.JPG'
 description = '这是一群看不见的人。这是一群被他人意见先入为主的人。希望通过我的照片，能给你一个不一样的看法'
 +++
