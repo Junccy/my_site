@@ -17,11 +17,11 @@ featuredImagePreview = '/my_site/5/cover.png'
 {{< admonition type=tip title="强烈建议" open=true >}}
 先下载摄影集完整感受一下，尽量看EPUB
 {{< /admonition >}}
-[👉 EPUB](https://github.com/Junccy/my_site/releases/download/26.1.24/default.epub)
+[👉 EPUB](https://github.com/Junccy/my_site/releases/download/26.1.24/TanHuaLin.epub)
 
-[👉 PDF](https://github.com/Junccy/my_site/releases/download/26.1.24/default.pdf)
+[👉 PDF](https://github.com/Junccy/my_site/releases/download/26.1.24/TanHuaLin.pdf)
 
-[👉 纯照片](https://github.com/Junccy/my_site/releases/download/26.1.24/default.zip)
+[👉 纯照片](https://github.com/Junccy/my_site/releases/download/26.1.24/TanHuaLin.zip)
 
 ### 项目介绍
 #### 基本信息
@@ -81,7 +81,7 @@ featuredImagePreview = '/my_site/5/cover.png'
 ###### 环境
 &emsp;&emsp;建筑基本都是外墙翻新，内部该是怎样还是怎样。少部分道路是翻修过、铺了地砖、做了斜坡的，大部分还是水泥地和台阶（有一个最触动我的是，在一个好几阶比较陡的台阶边上，固定了一个扶手）
 
-{{< figure src="/my_site/5/L1072698.jpg" title="" caption="" height=300 width=400 >}}
+{{< figure src="/my_site/5/L1072698.jpg" title="" caption="" height=500 >}}
 
 &emsp;&emsp;有一片比较大的区域都已经被拆了，我从住户那里了解到：这些是疫情之前就拆了，原先是三万块一平，说要做什么武胜门，但现在也没动静了，荒废在这。
 
@@ -154,10 +154,10 @@ featuredImagePreview = '/my_site/5/cover.png'
 #### 摄影方面
 ##### “随意”的照片——“严肃”的项目
 &emsp;&emsp;在照片形式上具有“随意”的知名摄影项目，在我的认知里面，可能更多的是森山大道或者深濑昌久的了。
-{{< figure src="/my_site/5/Raven4.jpg" title="" caption="" >}}
-{{< figure src="/my_site/5/Raven1.jpg" title="" caption="" >}}
-{{< figure src="/my_site/5/Raven2.jpg" title="" caption="" >}}
-{{< figure src="/my_site/5/Raven3.jpg" title="" caption="" >}}
+{{< figure src="/my_site/5/Raven4.jpg" title="" caption="" width=700 >}}
+{{< figure src="/my_site/5/Raven1.jpg" title="" caption="" width=700 >}}
+{{< figure src="/my_site/5/Raven2.jpg" title="" caption="" width=700 >}}
+{{< figure src="/my_site/5/Raven3.jpg" title="" caption="" width=700 >}}
 
 &emsp;&emsp;以上是从深濑昌久——《Raven》中抽出来的几张照片，在不了解这本画册的朋友眼中，可能会觉得这都啥玩意，拍得乱七八、曝光也不对、颗粒也粗、焦也没对上。但这本书在摄影界的评价还是相当高的，我认为有以下几个原因：
 - 极具个人风格化的图像，而且在整部作品中一以贯之。

@@ -1,0 +1,34 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+{{- $height := .Get "height" | default "" -}}
+{{- $style := .Get "style" | default "" -}}
+
+{{- /* 保持比例：只设置一个维度时，另一个用 auto */ -}}
+{{- $imgStyle := "" -}}
+{{- if $width -}}
+  {{- $imgStyle = printf "%swidth:%dpx;height:auto;" $imgStyle $width -}}
+{{- end -}}
+{{- if and $height (not $width) -}}
+  {{- $imgStyle = printf "%sheight:%dpx;width:auto;" $imgStyle $height -}}
+{{- end -}}
+{{- if $style -}}
+  {{- $imgStyle = printf "%s%s" $imgStyle $style -}}
+{{- end -}}
+
+<figure class="{{ $class }}">
+  <img
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    {{ with $title }}title="{{ . }}"{{ end }}
+    {{ if $width }}width="{{ $width }}"{{ end }}
+    {{ if $height }}height="{{ $height }}"{{ end }}
+    {{ if $imgStyle }}style="{{ $imgStyle | safeCSS }}"{{ end }}
+  >
+  {{- if $caption -}}
+    <figcaption>{{ $caption | markdownify }}</figcaption>
+  {{- end -}}
+</figure>

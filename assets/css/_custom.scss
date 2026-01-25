@@ -34,3 +34,9 @@
 .header-title .header-logo svg {
   transform: translateY(4px) !important; /* 往下 2px，1~4 自己调 */
 }
+
+/* 允许 figure shortcode 的 inline width/height 生效 */
+.single .content figure img {
+  max-width: 100%;
+  height: auto;
+}
