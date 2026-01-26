@@ -1,10 +1,13 @@
-{{- $css := printf "%s" (.Get 0) -}}
+{{- $css := .Get 0 | default "" -}}
 {{- $tag := .Get 1 | default "div" -}}
-{{- $content := .Inner | .Page.RenderString -}}
-{{- $id := printf "id-%d" .Ordinal -}}
+{{- $id  := printf "style-%d" .Ordinal -}}
 
 <style>
-#{{ $id }} { {{ $css }} }
+#{{ $id }}{
+{{ $css | safeCSS }}
+}
 </style>
 
-{{- printf "<%s id=%q>%s</%s>" $tag $id $content $tag | safeHTML -}}
+<{{ $tag }} id="{{ $id }}">
+  {{- .Inner | $.Page.RenderString -}}
+</{{ $tag }}>
