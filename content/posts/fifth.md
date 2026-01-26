@@ -178,7 +178,6 @@ featuredImagePreview = '/my_site/5/cover.png'
 [^3]:斯蒂格勒提出来的哲学观念，包括：第一持存、第二持存、第三持存。
 
 
-
-{{< style "text-align:right; strong{color:red;} margin-top: 4em;" >}}
-完篇于**26.1.24**.
-{{< /style >}}
+<p style="text-align: right;">
+完稿于 <strong style="color: red;">26.1.24</strong>.
+</p>
