@@ -182,4 +182,3 @@ featuredImagePreview = '/my_site/5/cover.png'
 {{< style "text-align:right; strong{color:red;} margin-top: 4em;" >}}
 完篇于**26.1.24**.
 {{< /style >}}
-
