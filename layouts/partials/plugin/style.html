@@ -26,7 +26,9 @@
             {{- $integrity = $resource.Data.Integrity -}}
         {{- end -}}
         {{- $href = $resource.RelPermalink -}}
-        {{- $href = printf "%s?v=%s" $href ($.Site.BuildDate | time.Format "20060102150405") -}}
+        {{- if $resource.Data.Integrity -}}
+            {{- $href = printf "%s?v=%s" $href (substr $resource.Data.Integrity 8 16) -}}
+        {{- end -}}
     {{- end -}}
     {{- $attrs := printf `href="%v"` $href -}}
     {{- if .Crossorigin -}}
