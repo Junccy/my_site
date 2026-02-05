@@ -1,0 +1,40 @@
+{{- if .Site.Params.search -}}
+  {{- $index := slice -}}
+  {{- $pages := .Site.RegularPages -}}
+
+  {{- if .Site.Params.page.hiddenFromSearch -}}
+    {{- $pages = where $pages "Params.hiddenfromsearch" false -}}
+  {{- else -}}
+    {{- $pages = where $pages "Params.hiddenfromsearch" "!=" true -}}
+  {{- end -}}
+
+  {{- range $pages -}}
+    {{- $uri := .RelPermalink -}}
+    {{- if $.Site.Params.search.absoluteURL -}}
+      {{- $uri = .Permalink -}}
+    {{- end -}}
+
+    {{- $meta := dict "uri" $uri "title" .Title "tags" .Params.tags "categories" .Params.categories -}}
+    {{- $meta = $.Site.Params.dateFormat | default "2006-01-02" | .PublishDate.Format | dict "date" | merge $meta -}}
+
+    {{- /* 只索引 description；如果没写 description，就用 summary 兜底 */ -}}
+    {{- $desc := .Description | default .Summary -}}
+    {{- $desc = $desc | plainify | htmlUnescape | replaceRE `[\n\t ]+` " " -}}
+
+    {{- /* 可选：进一步截断，防止极端情况 */ -}}
+    {{- if gt $.Site.Params.search.contentLength 0 -}}
+      {{- $desc = substr $desc 0 $.Site.Params.search.contentLength -}}
+    {{- else -}}
+      {{- $desc = truncate 300 $desc -}}
+    {{- end -}}
+
+    {{- if $desc | and (ne $desc " ") -}}
+      {{- $index = $index | append (dict "content" $desc "objectID" $uri | merge $meta) -}}
+    {{- else -}}
+      {{- /* 即使没有描述，也至少把标题索引进去 */ -}}
+      {{- $index = $index | append (dict "content" "" "objectID" $uri | merge $meta) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $index | jsonify | safeJS -}}
+{{- end -}}
