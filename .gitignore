@@ -8,3 +8,13 @@ static/5/昙华林.epub
 static/5/昙华林.pdf
 static/5/昙华林.zip
 public/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env.obsidian/
+.obsidian/
+.obsidian/
+.obsidian/
+.obsidian/
