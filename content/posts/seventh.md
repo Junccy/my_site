@@ -6,7 +6,7 @@ description = '''OpenAI的Image 2.0的横空出世，彻底结束了AI图片一�
 从今往后，当我们看到任何一张照片的时候，第一反应不再是去观察这张照片拍了什么，里面的人是谁，风景好不好看——一种已经根植于人类思维中逾100年的思考方式——而是转变成这张照片是真还是假……'''
 categories = ['随想']
 tags = ['AI','存在']
-featuredImagePreview = '/my_site/7/Time.JPG'
+featuredImagePreview = '/my_site/7/Time.jpg'
 +++
 
 <!--more-->
@@ -39,10 +39,10 @@ featuredImagePreview = '/my_site/7/Time.JPG'
 &emsp;&emsp;虽然说Image 2.0生成的图片更加真实了，具体体现在：人物皮肤质感、人物姿态、物体质感、光影、虚化，甚至还有噪点的模仿，但也还是存在一些细节问题：
 
 &emsp;&emsp;1.如果你是给它一张图片，比如让它把这个照片中的张三和某一位明星合影，首要问题是，生成的次数越多，张三会逐渐失真，也就是逐渐不像张三；其次是，这个明星，gpt可能都不知道是谁，我有两次让它生成含有陶喆的照片，结果生成出来的人我都不知道是谁。
-{{< figure src="/my_site/7/Fake david tao.JPG" caption="提示词：以这个图片为背景，陶喆正在这个广场上面唱歌，生成一张图片" width=700 >}}
+{{< figure src="/my_site/7/Fake david tao.jpg" caption="提示词：以这个图片为背景，陶喆正在这个广场上面唱歌，生成一张图片" width=700 >}}
 
 &emsp;&emsp;2.如果你是直接让它生成某某产品的宣传海报等之类的，带有一定知识性的照片，即使它会先去查询相关资料，而且在中文实现这方面正确率的确很高，但是终归有一点它逃不脱——信息的造假。当然，如果观看者并不了解这个产品，那它生成的就一点毛病都没有，但如果去深究这里面的信息，会发现还是存在不少的错误。「但又有多少人能无所不知呢？」
-{{< figure src="/my_site/7/Leica Q3.JPG" caption="提示词见下" height=800 >}}
+{{< figure src="/my_site/7/Leica Q3.jpg" caption="提示词见下" height=800 >}}
 ***
 >围绕徕卡Q3生成一张详细解析图。比例为3:4，长图，包含Q3的各种优点（混合快门，电池容量，整机重量），并且要和上一代进行对比，体现出这一代的升级之处。整体风格是现代感，极简风。
 >固定布局为：
@@ -55,21 +55,21 @@ featuredImagePreview = '/my_site/7/Time.JPG'
 ***
 
 &emsp;&emsp;说实话，当时乍看上去，我真的人都傻了，这也太nb了，这排版，这审美，这配图……。可细看之下，还是有一些问题的，比如“精密滚花波轮”的配图错了，“电池”的配图也错了，“电池容量”数据错误等。但是，这一切的前提都是我了解这个东西，如果我不了解呢，比如下面这个：
-{{< figure src="/my_site/7/ASML.JPG" caption="提示词：生成一张阿斯麦隆最新的EUA光刻机的产品介绍海报，详细介绍它的功能。极简风格" width=700 >}}
+{{< figure src="/my_site/7/ASML.jpg" caption="提示词：生成一张阿斯麦隆最新的EUA光刻机的产品介绍海报，详细介绍它的功能。极简风格" width=700 >}}
 
 &emsp;&emsp;我请问了，在座的各位又有多少能发现这其中的猫腻呢？我倒是去查了一下，首先阿斯麦隆的EUA光刻机官网上只有两款，一种是“EXE:5000”，一种是“EXE:5200B”。其中EXE:5000的分辨率是8nm，Wafers per hour是大于等于110。其中可能还有更多错误，我就懒得去一一找出来了。
 
 &emsp;&emsp;其实以上的两个主要问题，是有解决方案的，那就是把你想要它帮你添加进去的任意元素，都先告诉它是什么样的，比如先给它几张陶喆的照片、告诉它徕卡Q3到底有哪些功能。也就是我先限定死添加上去的是啥玩意，然后它相当于加快了我用Adobe去手动实现的排版等功能（这也是Adobe为什么会在AI时代失去竞争力的最主要原因），并且还能有不俗的表现。而针对生成的次数越多，主体越失真，我们也可以重新新建一个对话，将同样的提示词给它，让它再生成一遍。
 
 ### 其他的图片
-{{< figure src="/my_site/7/School.JPG" caption="提示词：中国大学正在上课的教室，需要画质清晰，尽量真实" width=600 >}}
+{{< figure src="/my_site/7/School.jpg" caption="提示词：中国大学正在上课的教室，需要画质清晰，尽量真实" width=600 >}}
 ***
 
 <br>
 
 ***
 
-{{< figure src="/my_site/7/Ruler.JPG" caption="提示词见下" width=500 >}}
+{{< figure src="/my_site/7/Ruler.jpg" caption="提示词见下" width=500 >}}
 ***
 >- 以这个人为主体。让他在18世纪的中国，人在紫禁城内，坐在皇帝的龙椅上，全身穿着皇帝的黄色龙袍，带着皇帝的帽子，衣着华丽。左右两边站着他的大臣，同时底下文武百官都跪在地上行礼。殿堂内灯光神圣，但十分真实，装饰物十分华贵。照片尽量真实，但由于时间长久，会有一点褪色、泛黄，饱和度较低
 >- 主角人物的脸太过于清晰，需要模糊一点，和周围的环境保持一致
@@ -78,7 +78,7 @@ featuredImagePreview = '/my_site/7/Time.JPG'
 >（这里一共花了三次才呈现了这样的结果）
 ***
 
-{{< figure src="/my_site/7/Sam Altman.JPG" caption="提示词见下" width=400 >}}
+{{< figure src="/my_site/7/Sam Altman.jpg" caption="提示词见下" width=400 >}}
 ***
 >- sam altman在中国的抖音直播，直播间有100万+人次观看，弹幕很多，altman在宣传武汉理工大学，建议大家都去报考，同时底下的购物车里有2026年武汉理工大学报名资料，9块9一份，已经有很多人抢购了。背景是武汉理工大学的校徽，手上拿着武汉理工大学的海报
 >- 更真实抖音UI版本，更夸张传播版（偏整活），同时手中的海报以这个为背景图片
@@ -88,26 +88,26 @@ featuredImagePreview = '/my_site/7/Time.JPG'
 >（那个“华科退学来武理”是什么鬼🫤）
 ***
 
-{{< figure src="/my_site/7/Girl.JPG" caption="提示词见下" width=400 >}}
+{{< figure src="/my_site/7/Girl.jpg" caption="提示词见下" width=400 >}}
 ***
 >9:16 vertical - editorial portrait, single subject soft black mist filter, subtle haze, gentle highlight bloom, muted tones minimal indoor space, clean background, slight texture young Korean woman, minimal makeup, natural skin texture outfit: fitted ribbed knit top or soft camisole layered under a loose shirt, paired with high-waisted shorts or skirt; fabric slightly clings to body shape, soft and natural, no revealing elements hair: slightly messy, natural volume pose: sitting on floor with one leg bent and the other relaxed, body slightly leaning, shoulders not aligned, head tilted composition: subject slightly off-center, negative space present expression: calm, slightly distant, natural lips lighting: soft side light, gentle shadow falloff mood: understated, quiet, subtly sensual through natural body lines, relaxed and unposed quality: fine grain, slight softness, realistic look
 >
 >（这个我是直接从那个提示词网站复制过来的，第一次它说可能违反规定，然后我再试了一次就行了）
 ***
 
-{{< figure src="/my_site/7/Everest.JPG" caption="提示词见下" width=550 >}}
+{{< figure src="/my_site/7/Everest.jpg" caption="提示词见下" width=550 >}}
 ***
 >依旧以这个人为主体。但他现在正在珠峰大本营，他侧坐在一块石头上，左边后面就是珠峰。天气晴朗，能见度高，他穿着北面的修身白色羽绒服和修身黑色羽绒裤，脚上穿着哥伦比亚的雪地靴，戴着橙色的围巾、米白色的针织帽，同时戴有一个淡蓝色的面罩，面罩遮住了口鼻，只把眼睛露在了外面。照片尽量真实，并且是用35毫米的胶片拍摄，带有胶片质感以及胶片的独特高光感觉，画面比例4:3。
 ***
 
-{{< figure src="/my_site/7/爬虫.JPG" caption="提示词：我想在闲鱼上发布爬虫服务，需要你生成吸引人封面图，并给出详情页的文案。" width=550 >}}
+{{< figure src="/my_site/7/爬虫.jpg" caption="提示词：我想在闲鱼上发布爬虫服务，需要你生成吸引人封面图，并给出详情页的文案。" width=550 >}}
 ***
 
 <br>
 
 ***
 
-{{< figure src="/my_site/7/Time.JPG" caption="提示词见下" width=650 >}}
+{{< figure src="/my_site/7/Time.jpg" caption="提示词见下" width=650 >}}
 ***
 >生成一张以这个人为封面的时代杂志周刊，要求尽量真实。
 >
@@ -155,7 +155,7 @@ featuredImagePreview = '/my_site/7/Time.JPG'
 
 &emsp;&emsp;我们悼念亲人，都会有一个极为重要的物品——遗像。这是通过机器的手段，将过去的存在转化成一种外在的记忆，以免亲人的形象在我们脑海中渐渐淡去。换句话说就是，这张照片代表了他过去存在过。那么请大家看下面这张照片：
 
-{{< figure src="/my_site/7/Family.JPG" caption="" width=800 >}}
+{{< figure src="/my_site/7/Family.jpg" caption="" width=800 >}}
 
 &emsp;&emsp;这张照片里的三口之家，是我之前小区楼下的邻居，他们在15年时，因在家中生炉子取暖导致一氧化碳中毒，全部离世。唯二能证明他们来过这个世界的就是：亲朋好友之间的记忆，这张他们拍过的全家福。
 
