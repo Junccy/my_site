@@ -163,9 +163,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # LoveIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = "search_function"
-      appID = "MXNU3QH0SM"
-      searchKey = "8191483e65d77fa2956874c92833244b"
+      index = "searching"
+      appID = "EAISSGA6B0"
+      searchKey = "b12c47a1c8cb80ee0e308f3195508269"
 
 # 主页配置
   [params.home]
