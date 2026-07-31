@@ -21,7 +21,7 @@ featuredImagePreview = '/my_site/8/L1071188.jpg'
   <strong style="color: red;">
     这篇文章仅仅代表了我到文章创建日期对尼采、对世界的理解，难免会有个人和时间的局限性。
   </strong>
-</div>s
+</div>
 
 ***
 ***
